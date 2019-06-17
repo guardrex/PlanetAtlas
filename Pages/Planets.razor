@@ -28,9 +28,9 @@
 <div>
     <h2>Add Planet</h2>
 
-    <input @bind="@_newPlanet.Name" placeholder="Name" 
+    <input @bind="_newPlanet.Name" placeholder="Name" 
            style="vertical-align:middle" />
-    <input @bind="@_newPlanet.ImageUrl" placeholder="Image Url" 
+    <input @bind="_newPlanet.ImageUrl" placeholder="Image Url" 
            style="vertical-align:middle;width:350px" />
 
     <button class="btn btn-primary" @onclick="@AddPlanet">Add Planet</button>
