@@ -30,7 +30,6 @@ figure {
         border-radius: 10px 10px 0 0;
         height: 100px;
         min-width: 100px;
-        padding: 5px;
     }
 
     figure img:hover {
