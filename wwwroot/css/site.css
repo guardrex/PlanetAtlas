@@ -23,6 +23,7 @@ h1, h2 {
 figure {
     display: inline-block;
     margin: 10px 5px;
+	text-align: center;
 }
 
     figure img {
